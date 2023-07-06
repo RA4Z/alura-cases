@@ -11,7 +11,6 @@ function Title({ children, as }) {
                 {`
                 ${Tag} {
                     color: red;
-                    font-family: sans-serif;
                 }
                 `}
             </style>
@@ -22,7 +21,7 @@ function Title({ children, as }) {
 export default function HomePage() {
     return (
         <div>
-            <Title as='h1'>Alura Cases - Home Page</Title>
+            <Title as='h2'>Alura Cases - Home Page</Title>
             <Link href='/Faq'>
                 Ir para o FAQ
             </Link>
