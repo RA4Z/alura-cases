@@ -163,7 +163,7 @@ export default function HomeScreen() {
               >
                 <Box>
                   <Link
-                    href="/faq"
+                    href="/Faq"
                     styleSheet={{
                       display: "inline-flex",
                       alignItems: {
