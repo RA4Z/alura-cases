@@ -1,4 +1,5 @@
 import Link from '../src/components/Link'
+import Head from 'next/head'
 
 // export async function getServerSideProps() {
 //  console.log('Em modo DEV, sempre roda! A cada acesso')
@@ -23,6 +24,9 @@ export async function getStaticProps() {
 export default function HomePage({ faq }) {
     return (
         <div>
+            <Head>
+                <title>FAQ - Alura Cases Campanha</title>
+            </Head>
             <h1>Alura Cases - FAQ</h1>
             <Link href='/' passHref>
                 Ir para a Home
